@@ -1,6 +1,7 @@
 * {
     font-family: 'Press Start 2P', sans-serif;
     box-sizing: border-box;
+    font-size: 15px;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 
 .cabecalho {
     grid-area: cabecalho;
-    background-color: rgb(66, 139, 235);
+    background-color: #1867c0;
     color: white;
     display: flex;
     flex-direction: column;
@@ -25,19 +26,28 @@ body {
     align-items: center;
     padding-bottom: 10px;
     z-index: 1;
-    box-shadow: 0px 2px 9px -5px;
+    box-shadow: 1px -6px 11px 8px rgba(0,0,0,0.32);
 }
 
-.cabecalho h1 {
+.cabecalho > h1 {
     margin: 0px;
     font-weight: 300;
     font-size: 2.8rem;
 }
 
-.cabecalho h2 {
+.cabecalho > h2 {
     margin: 0px;
     font-weight: 200;
     font-size: 1.6rem;
+}
+
+.conteudo {
+    position: relative;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 1px 1px 15px 3px rgba(0,0,0,0.22);
 }
 
 .principal {
@@ -49,5 +59,51 @@ body {
 
 .rodape {
     grid-area: rodape;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(255, 222, 37);
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.opcao {
+    flex-basis: 32%;
+    border: 2px solid #1867c0;
+    margin-bottom: 10px;
+}
+
+.menu h3 {
+    margin: 0;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: #1867c0;
+}
+
+.opcao > ul {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+
+.opcao li > a {
+    cursor: pointer;
+    display: flex;
+    text-decoration: none;
+    color: #222;
+    transition: .25s;
+}
+
+.opcao li > a:hover {
+    color: rgb(124, 124, 124);
+}
+
+.opcao li {
+    padding: 9px;
 }
