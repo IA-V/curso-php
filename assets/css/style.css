@@ -107,3 +107,11 @@ body {
 .opcao li {
     padding: 9px;
 }
+
+.verde {
+    background-color: #4caf50;
+}
+
+.vermelho {
+    background-color: #f44336;
+}

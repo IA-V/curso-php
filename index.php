@@ -21,7 +21,11 @@
                 <div class="opcao">
                     <h3>Módulo 01 - Básico</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
+                        <form method="get" action="exercicio.php">
+                            <input type="hidden" name="dir/file" value="teste">
+                            <li><input type="submit" value="Exercício A teste"></li>
+                        </form>
+                        <li><a href="exercicio.php">Exercício A</a></li>
                         <li><a href="#">Exercício B</a></li>
                         <li><a href="#">Exercício C</a></li>
                     </ul>
@@ -95,7 +99,7 @@
     </main>
 
     <footer class="rodape">
-        Curso PHP © 2021
+        Curso PHP © <?= date('Y'); ?>
     </footer>
 </body>
 </html>
