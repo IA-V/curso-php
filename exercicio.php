@@ -21,9 +21,7 @@
     </nav>
     <main class="principal">
         <div class="conteudo">
-            <?php
-                include($_GET['dir/file']."/".$_GET['dir/file'].".php");
-            ?>
+            <?php include("{$_GET['dir']}/{$_GET['file']}.php"); ?>
         </div>
     </main>
     <footer class="rodape">

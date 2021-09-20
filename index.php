@@ -21,77 +21,9 @@
                 <div class="opcao">
                     <h3>Módulo 01 - Básico</h3>
                     <ul>
-                        <form method="get" action="exercicio.php">
-                            <input type="hidden" name="dir/file" value="teste">
-                            <li><input type="submit" value="Exercício A teste"></li>
-                        </form>
-                        <li><a href="exercicio.php">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
-                    </ul>
-                </div>
-                <div class="opcao">
-                    <h3>Módulo 02 </h3>
-                    <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
-                    </ul>
-                </div>
-                <div class="opcao">
-                    <h3>Módulo 03 </h3>
-                    <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
-                    </ul>
-                </div>
-                <div class="opcao">
-                    <h3>Módulo 04 </h3>
-                    <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
-                    </ul>
-                </div>
-                <div class="opcao">
-                    <h3>Módulo 05 </h3>
-                    <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
-                    </ul>
-                </div>
-                <div class="opcao">
-                    <h3>Módulo 06 </h3>
-                    <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
-                    </ul>
-                </div>
-                <div class="opcao">
-                    <h3>Módulo 07 </h3>
-                    <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
-                    </ul>
-                </div>
-                <div class="opcao">
-                    <h3>Módulo 08 </h3>
-                    <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
-                    </ul>
-                </div>
-                <div class="opcao">
-                    <h3>Módulo 09 </h3>
-                    <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=ola">Olá PHP</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=html">Integrcacao HTML</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=css">Integracao CSS</a></li>
                     </ul>
                 </div>
             </nav>
