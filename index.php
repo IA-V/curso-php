@@ -24,6 +24,14 @@
                         <li><a href="exercicio.php?dir=basico&file=ola">Olá PHP</a></li>
                         <li><a href="exercicio.php?dir=basico&file=html">Integrcacao HTML</a></li>
                         <li><a href="exercicio.php?dir=basico&file=css">Integracao CSS</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=comentarios">Comentarios</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=desafio">Desafio</a></li>
+                    </ul>
+                </div>
+                <div class="opcao">
+                    <h3>Módulo 02 - Tipos</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=tipos&file=int">Tipo Inteiro</a></li>
                     </ul>
                 </div>
             </nav>
