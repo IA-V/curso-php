@@ -36,6 +36,15 @@
                         <li><a href="exercicio.php?dir=tipos&file=aritmeticas">Operações Aritméticas</a></li>
                         <li><a href="exercicio.php?dir=tipos&file=desafio_precedencia">Desafio de Precedência</a></li>
                         <li><a href="exercicio.php?dir=tipos&file=strings">Tipo String</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=booleano">Tipo Booleano</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=conversoes">Conversões</a></li>
+                    </ul>
+                </div>
+                <div class="opcao">
+                    <h3>Módulo 03 - Variáveis</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=variaveis&file=basico">Variáveis</a></li>
+                        
                     </ul>
                 </div>
             </nav>
