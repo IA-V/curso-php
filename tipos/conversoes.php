@@ -14,7 +14,7 @@
     var_dump(5.5);
 
     echo "<br>".intval('A', 16);
-    echo "<br>".intval(16, 16);
+    echo "<br>".intval(16, 10);
 
     echo "<br>";
     var_dump((int) round(3,3));

@@ -56,7 +56,10 @@
                 <div class="opcao">
                     <h3>Módulo 04 - Estruturas de Controle</h3>
                     <ul>
-                        
+                        <li><a href="exercicio.php?dir=estruturas_de_controle&file=desafio_ec">Desafio</a></li>
+                        <li><a href="exercicio.php?dir=estruturas_de_controle&file=operadores_logicos">Operadores Logicos</a></li>
+                        <li><a href="exercicio.php?dir=estruturas_de_controle&file=desafio_operadores_logicos">Desafio Operadores Logicos</a></li>
+                        <li><a href="exercicio.php?dir=estruturas_de_controle&file=desafio_switch">Desafio Switch</a></li>
                     </ul>
                 </div>
             </nav>
