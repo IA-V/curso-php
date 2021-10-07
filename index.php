@@ -62,6 +62,16 @@
                         <li><a href="exercicio.php?dir=estruturas_de_controle&file=desafio_switch">Desafio Switch</a></li>
                     </ul>
                 </div>
+                <div class="opcao">
+                    <h3>Módulo 05 - Arrays</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=arrays&file=basico">Basico</a></li>
+                        <li><a href="exercicio.php?dir=arrays&file=mapas">Mapas</a></li>
+                        <li><a href="exercicio.php?dir=arrays&file=operacoes">Operacoes</a></li>
+                        <li><a href="exercicio.php?dir=arrays&file=matrizes">Matrizes</a></li>
+                        <li><a href="exercicio.php?dir=arrays&file=comparacao">Comparacao</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
