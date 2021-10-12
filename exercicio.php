@@ -1,3 +1,7 @@
+<?php
+	require_once('verificacao_login.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,8 +20,10 @@
         <h2>Visualização do Exercício</h2>
     </header>
     <nav class="navegacao">
+        <span class="usuario">Usuario: <?= $_SESSION['usuario'] ?></span>
+        <a class="vermelho" href="logout.php">Sair</a>
         <a href=<?= "{$_GET['dir']}/{$_GET['file']}.php" ?> class="verde">Sem formatação</a>
-        <a href="index.php" class="vermelho">Voltar</a>
+        <a href="index.php" class="azul">Voltar</a>
     </nav>
     <main class="principal">
         <div class="conteudo">

@@ -1,32 +1,14 @@
 .exercicio {
-    grid-template-rows: 120px 60px 1fr 60px;
+    /*grid-template-rows: 120px 60px 1fr 60px;
     grid-template-areas: 
         "cabecalho"
         "navegacao"
         "principal"
-        "rodape";
+        "rodape";*/
 }
 
 .principal {
-    height: calc(100vh - 240px);
-}
-
-.navegacao {
-    grid-area: navegacao;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: #555;    
-}
-
-.navegacao > a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 300;
-    font-size: .7rem;
-    padding: 5px 10px;
-    margin-right: 10px;
-    border-radius: 2px;
+    /*height: calc(100vh - 240px);*/
 }
 
 .conteudo {
@@ -39,4 +21,12 @@
     padding-bottom: 10px;
     border-bottom: 1px solid #999;
     margin-bottom: 20px;
+}
+
+.verde {
+    background-color: #4caf50;
+}
+
+.vermelho {
+    background-color: #f44336;
 }

@@ -1,3 +1,7 @@
+<?php
+	require_once('verificacao_login.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +18,10 @@
         <h1>Curso PHP</h1>
         <h2>Índice de exercícios</h2>
     </header>
-
+    <nav class="navegacao">
+        <span class="usuario">Usuario: <?= $_SESSION['usuario'] ?></span>
+        <a class="vermelho" href="logout.php">Sair</a>
+    </nav>
     <main class="principal">
         <div class="conteudo">
             <nav class="menu">
@@ -70,6 +77,13 @@
                         <li><a href="exercicio.php?dir=arrays&file=operacoes">Operacoes</a></li>
                         <li><a href="exercicio.php?dir=arrays&file=matrizes">Matrizes</a></li>
                         <li><a href="exercicio.php?dir=arrays&file=comparacao">Comparacao</a></li>
+                    </ul>
+                </div>
+                <div class="opcao">
+                    <h3>Módulo 14 - Sessão e Cookies</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=sessao&file=sessao_basico">Basico</a></li>
+                        <li><a href="exercicio.php?dir=sessao&file=gerenciando_sessao">Gerenciando Sessão</a></li>
                     </ul>
                 </div>
             </nav>
